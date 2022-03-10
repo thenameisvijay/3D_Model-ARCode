@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
     id 'com.google.ar.sceneform.plugin'
 }
 
@@ -10,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "com.vj.dmodel_arcode"
-        minSdk 21
+        minSdk 24
         targetSdk 30
         versionCode 1
         versionName "1.0"
@@ -42,4 +43,10 @@ dependencies {
 
     //AR Core
     implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
+    implementation 'com.google.ar.sceneform:assets:1.15.0'
 }
+
+sceneform.asset('sampledata/models/bike/scene.gltf',
+        'default',
+        'sampledata/models/bike/scene.sfa',
+        'src/main/assets/scene')

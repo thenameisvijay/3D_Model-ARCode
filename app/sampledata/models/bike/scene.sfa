@@ -1,0 +1,585 @@
+{
+  materials: [
+    {
+      name: 'glass',
+      parameters: [
+        {
+          baseColorFactor: [
+            0.00059299999999999999,
+            0.13603100000000001,
+            0.086071999999999996,
+            0.80464000000000002,
+          ],
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'glass_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 0,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'glass_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'aluminio',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'aluminio_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'aluminio_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'aluminio_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'aluminio_0',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'aluminio_0_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'aluminio_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 0.51223600000000002,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'caucho',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'caucho_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'caucho_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'caucho_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'plastico',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'plastico_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'plastico_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 0.52432599999999996,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'plastico_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'plastico_0',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'plastico_0_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'plastico_0_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.59999999999999998,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'luces',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'luces_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'luces_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'luces_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/bike/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.002261,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/bike/textures/luces_baseColor.jpeg',
+      name: 'luces_baseColor',
+      pipeline_name: 'textures/luces_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/models/bike/textures/luces_metallicRoughness.png',
+      name: 'luces_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/luces_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/luces_normal.png',
+      name: 'luces_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/luces_normal.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/plastico_0_normal.png',
+      name: 'plastico_0_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/plastico_0_normal.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/plastico_normal.png',
+      name: 'plastico_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/plastico_normal.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/plastico_metallicRoughness.png',
+      name: 'plastico_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/plastico_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/plastico_baseColor.jpeg',
+      name: 'plastico_baseColor',
+      pipeline_name: 'textures/plastico_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/models/bike/textures/plastico_0_baseColor.jpeg',
+      name: 'plastico_0_baseColor',
+      pipeline_name: 'textures/plastico_0_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/models/bike/textures/aluminio_metallicRoughness.png',
+      name: 'aluminio_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/aluminio_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/caucho_normal.png',
+      name: 'caucho_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/caucho_normal.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/caucho_metallicRoughness.png',
+      name: 'caucho_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/caucho_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/caucho_baseColor.jpeg',
+      name: 'caucho_baseColor',
+      pipeline_name: 'textures/caucho_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/models/bike/textures/aluminio_0_baseColor.jpeg',
+      name: 'aluminio_0_baseColor',
+      pipeline_name: 'textures/aluminio_0_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/models/bike/textures/glass_normal.png',
+      name: 'glass_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/glass_normal.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/aluminio_normal.png',
+      name: 'aluminio_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/aluminio_normal.png',
+    },
+    {
+      file: 'sampledata/models/bike/textures/aluminio_baseColor.jpeg',
+      name: 'aluminio_baseColor',
+      pipeline_name: 'textures/aluminio_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/models/bike/textures/glass_metallicRoughness.png',
+      name: 'glass_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/glass_metallicRoughness.png',
+    },
+  ],
+  version: '0.54:2',
+}

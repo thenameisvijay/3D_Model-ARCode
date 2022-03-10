@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">#D Model - ARCode</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="model_ready">Model Ready</string>
 </resources>
